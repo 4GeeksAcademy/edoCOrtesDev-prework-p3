@@ -17,19 +17,16 @@
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <h1 class="mt-5">Generador de Excusas</h1>
+      <img src="./assets/img/rigo-baby.jpg" class="img-fluid rounded my-3" alt="Imagen divertida" style="max-width:250px;">
+      <p id="excuse" class="alert alert-warning">Presiona el botón para generar una excusa.</p>
+      <button class="gen">Generar Excusa</button>
+      <div class="footer">
+          <small>Creado por <a href="https://www.4geeksacademy.com" target="_blank">4Geeks Academy</a> | Eduardo Cortés</small>
       </div>
-    </div>
+  </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 </html>
